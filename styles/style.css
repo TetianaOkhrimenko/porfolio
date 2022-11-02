@@ -1,0 +1,361 @@
+:root {
+  --heading-font-family: "Playfair Display", serif;
+  --default-font-family: "Vollkorn", serif;
+  --main-color: #66bfbf;
+}
+nav {
+  padding: 5px 10px;
+  display: flex;
+  justify-content: space-between;
+}
+nav ul {
+  padding: 14px 50px;
+  margin-bottom: 0;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  padding: 0 20px;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+  opacity: 0.8;
+  font-family: var(--heading-font-family);
+  font-weight: 500;
+  transition: all 200ms ease-in-out;
+}
+nav a:hover {
+  color: #66bfbf;
+  opacity: 0.8;
+}
+nav li.active a {
+  color: #f76b8a;
+  font-weight: 700;
+}
+nav img {
+  margin-left: 15px;
+  transition: all 1s ease-in-out;
+}
+nav img:hover {
+  transform: rotate(360deg);
+}
+footer {
+  margin: 50px 0 0 0;
+  background: #eaf6f6;
+  padding: 30px 0;
+}
+footer .social-links a {
+  margin: 0 20px;
+  color: #66bfbf;
+  font-size: 22px;
+  border-radius: 50%;
+  padding: 4px 11px;
+  transition: all 200ms ease-in-out;
+}
+footer .social-links a:hover {
+  border-radius: 50%;
+  padding: 4px 11px;
+  background-color: #66bfbf;
+  color: white;
+}
+
+.hero {
+  margin: 0;
+  text-align: center;
+  background: #eaf6f6;
+  padding: 140px 20px;
+}
+.hero h1 {
+  font-family: var(--heading-font-family);
+  font-size: 70px;
+  color: #f76b8a;
+}
+.hero h2 {
+  font-family: var(--default-font-family);
+  font-size: 28px;
+  margin-top: 20px;
+  color: #66bfbf;
+  font-weight: bold;
+}
+.hero p {
+  font-family: var(--default-font-family);
+  font-size: 28px;
+  margin: 0;
+  color: #66bfbf;
+  font-weight: 700;
+}
+.hero img {
+  transition: transform 0.6s;
+}
+.hero img:hover {
+  transform: rotate(7deg);
+  cursor: pointer;
+}
+.btn-branding {
+  background: #66bfbf;
+  color: #fcfefe;
+  font-family: var(--default-font-family);
+  font-size: 18px;
+  padding: 15px 20px;
+  border-radius: 4px;
+  line-height: 27px;
+  transition: all 400ms ease-in-out;
+}
+.btn-branding:hover {
+  background: #f76b8a;
+  color: #fcfefe;
+}
+.heading-my-projects {
+  font-family: var(--default-font-family);
+  font-size: 46px;
+  color: #f76b8a;
+  font-weight: bold;
+}
+
+.first-project {
+  margin-top: 40px;
+}
+.first-project h2 {
+  font-family: var(--heading-font-family);
+  font-size: 40px;
+  margin-top: 40px;
+  color: var(--main-color);
+  font-weight: bold;
+}
+.first-project p {
+  font-family: var(--default-font-family);
+  font-size: 22px;
+  color: #2f2e41;
+  opacity: 0.8;
+  margin-top: 20px;
+}
+.projects-content {
+  margin: 0;
+  padding: 40px 20px 0 20px;
+}
+.first-project img,
+.projects-content img {
+  transition: all 600ms ease-in-out;
+}
+.first-project img:hover,
+.projects-content img:hover {
+  box-shadow: 0 10px 15px rgba(33, 33, 33, 0.2);
+}
+
+.about-project-text {
+  padding: 120px 60px;
+}
+.btn-branding-outline {
+  background: #66bfbf;
+  color: #e7eaf6;
+  font-family: var(--default-font-family);
+  font-size: 18px;
+  padding: 15px 70px;
+  border-radius: 4px;
+  line-height: 27px;
+  margin-top: 20px;
+  transition: all 400ms ease-in-out;
+}
+.btn-branding-outline:hover {
+  background: #f76b8a;
+  color: #fcfefe;
+}
+.projects-content .btn-branding-outline {
+  display: block;
+  margin: 0 180px;
+}
+.image-weather-project {
+  margin-top: 70px;
+}
+.about-content,
+.contact-content {
+  margin: 0;
+  background: #eaf6f6;
+  padding: 90px 20px;
+}
+.about-content h1,
+.projects,
+.contact-content h1 {
+  font-family: var(--heading-font-family);
+  color: #f76b8a;
+  margin-top: 20px;
+}
+.about-content h1,
+.contact-content h1 {
+  font-size: 64px;
+}
+.projects {
+  margin-top: 40px;
+  font-size: 58px;
+  font-family: var(--default-font-family);
+  font-weight: 700;
+}
+
+.about-content h2,
+.contact-content h2 {
+  font-family: var(--default-font-family);
+  font-size: 28px;
+  margin: 20px 0;
+  font-weight: bold;
+}
+.about-content h2 {
+  color: #66bfbf;
+}
+.contact-content h2 {
+  color: #66bfbf;
+}
+.about-content p {
+  margin-top: 40px;
+  padding-right: 20px;
+  opacity: 0.9;
+}
+.about-content p,
+.contact-content p {
+  font-family: var(--default-font-family);
+  font-size: 20px;
+  margin: 0;
+  color: #2f2e41;
+}
+
+.projects-content h3 {
+  font-family: var(--default-font-family);
+  font-weight: 700;
+  font-size: 28px;
+  color: #f76b8a;
+  margin-top: 20px;
+}
+.skills {
+  margin-bottom: 80px;
+}
+.skills-block {
+  background: #eaf6f6;
+  padding: 40px;
+}
+.skills-items {
+  padding: 0 80px;
+}
+.skills img {
+  transition: all 300ms ease-in-out;
+}
+
+.skills img:hover {
+  transform: translate(0, -10px);
+  cursor: pointer;
+}
+.skills p {
+  margin-top: 20px;
+}
+.projects-content p,
+.skills p {
+  font-family: var(--default-font-family);
+  font-size: 20px;
+  color: #2f2e41;
+  opacity: 0.8;
+}
+.projects-content img {
+  cursor: pointer;
+}
+.skills h2,
+.certification h2 {
+  font-family: var(--default-font-family);
+  font-size: 40px;
+  color: #f76b8a;
+  font-weight: bold;
+}
+.skills h2 {
+  margin-bottom: 30px;
+  margin-top: 40px;
+}
+.certification {
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+.certification h2 {
+  margin-bottom: 40px;
+}
+.certification img {
+  transition: transform 0.8s;
+}
+.certification img:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.contact-content h1 {
+  font-size: 58px;
+}
+.contact-content p {
+  margin-top: 10px;
+}
+.contact-content a {
+  color: #2f2e41;
+  opacity: 0.9;
+  text-decoration: none;
+}
+.projects-content .footer-coder {
+  font-size: 16px;
+  opacity: 1;
+}
+.footer-coder {
+  font-size: 16px;
+  opacity: 1;
+  font-family: var(--default-font-family);
+}
+.footer-coder a {
+  text-decoration: none;
+  color: #2f2e41;
+}
+.footer-coder a:hover {
+  color: #66bfbf;
+}
+@media (max-width: 1024px) {
+  nav ul {
+    padding: 14px 14px;
+    font-size: 14px;
+  }
+  nav li {
+    margin: 0 -17px;
+  }
+  .hero {
+    padding-bottom: 50px;
+  }
+  .hero img,
+  .about-content img {
+    margin-top: 50px;
+  }
+  .hero h1 {
+    font-size: 48px;
+  }
+  .hero p {
+    margin-top: -90px;
+  }
+  .first-project {
+    text-align: center;
+  }
+  .first-project .heading-maldives {
+    margin-top: -80px;
+  }
+  .first-project .heading-weather-app {
+    margin-top: -220px;
+  }
+  .first-project .heading-music-lessons {
+    margin-top: -70px;
+  }
+  .first-project .weather-app-image {
+    margin-top: -70px;
+  }
+  .first-project .heading-integral-page {
+    margin-top: -210px;
+  }
+  .contact-content {
+    text-align: center;
+    padding: 60px 20px;
+  }
+  .projects-content .btn-branding-outline {
+    margin: 0px 0px;
+  }
+  .about-content {
+    text-align: center;
+    padding-top: 40px;
+  }
+}
