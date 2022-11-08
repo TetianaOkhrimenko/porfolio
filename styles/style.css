@@ -279,6 +279,9 @@ footer .social-links a:hover {
   cursor: pointer;
   transform: scale(1.1);
 }
+.custom-border {
+  border: white solid 12px;
+}
 .contact-content h1 {
   font-size: 58px;
 }
