@@ -282,6 +282,9 @@ footer .social-links a:hover {
 .custom-border {
   border: white solid 12px;
 }
+.coursera {
+  margin-left: 8px;
+}
 .contact-content h1 {
   font-size: 58px;
 }
@@ -358,5 +361,8 @@ footer .social-links a:hover {
   .about-content {
     text-align: center;
     padding-top: 40px;
+  }
+  .coursera {
+    margin-left: 0;
   }
 }
